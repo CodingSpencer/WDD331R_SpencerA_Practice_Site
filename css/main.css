@@ -15,13 +15,14 @@
     --space-md: 1rem;
     --space-lg: 2rem;
     --font-body: system-ui, -apple-system, sans-serif;
+    --line-height: 1.6;
 }
 
 .intro {
     font-family: var(--font-body);
     color: var(--color-text);
     background-color: var(--color-bg);
-    line-height: 1.6;
+    line-height: var(--line-height);
     padding: var(--space-lg);
 }
 
